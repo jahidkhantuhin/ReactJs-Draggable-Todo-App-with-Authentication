@@ -1,0 +1,41 @@
+.container{
+    width: 90%;
+    height: 1000px;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid #0bb2cf;
+    box-shadow: 0 3px 7px #0bb2cf;
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+}
+.todo-item{
+    width: 800px;
+    margin: auto;
+
+}
+.todo-item ul{
+    list-style: none;
+    
+}
+.todo-item li{
+    text-align: left;
+    border: 1px solid gray;
+    border-radius: 10px;;
+    list-style: none;
+    padding: 10px;
+    background-color: #38c5c5;
+    position: relative;
+    transition: ease-in-out;
+    cursor: move;
+
+}
+.todo-item span{
+    position: absolute;
+    right: 10px;
+}
+.faicons{
+    margin: 0 5px;
+    font-size: 15px;
+    cursor: pointer;
+}

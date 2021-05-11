@@ -1,0 +1,30 @@
+.todo-item{
+    width: 800px;
+    margin: auto;
+
+}
+.todo-item ul{
+    list-style: none;
+    
+}
+.todo-item li{
+    text-align: left;
+    border: 1px solid gray;
+    border-radius: 10px;;
+    list-style: none;
+    padding: 10px;
+    background-color: #38c5c5;
+    position: relative;
+    transition: ease-in-out;
+    cursor: move;
+
+}
+.todo-item span{
+    position: absolute;
+    right: 10px;
+}
+.faicons{
+    margin: 0 5px;
+    font-size: 15px;
+    cursor: pointer;
+}

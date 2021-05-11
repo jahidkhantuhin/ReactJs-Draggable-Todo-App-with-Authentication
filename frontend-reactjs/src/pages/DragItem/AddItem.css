@@ -1,0 +1,40 @@
+    .add-item input{
+    border: 1px solid black;
+    box-shadow: 0 3px 7px dimgray;
+    color: black;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 5px;
+    padding: 0 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    }
+    .add-item input::placeholder{
+    color: grey;
+    }
+    .add-item input:focus{
+    outline: none;
+    }
+
+    .add-item label{
+        margin-left: 10px;
+        font-weight: bold;
+    }
+
+    .add-item button{
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 0;
+    background-color:rgba(202, 156, 24, 1); 
+    cursor: pointer;
+    }
+    .add-item button:focus{
+    outline: none;
+    }
+    .add-item button:hover{
+    background-color:rgb(77, 230, 72);
+    }

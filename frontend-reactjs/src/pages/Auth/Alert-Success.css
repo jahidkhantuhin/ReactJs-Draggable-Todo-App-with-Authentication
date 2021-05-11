@@ -1,0 +1,10 @@
+.alert-post{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    color: #1ca038;
+    border: 1px solid #0bb2cf;
+    box-shadow: 0 3px 7px #0bb2cf;
+    border-radius: 5px;
+
+}

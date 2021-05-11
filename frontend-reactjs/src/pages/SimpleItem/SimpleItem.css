@@ -1,0 +1,62 @@
+
+  .App{
+    background-color: #d2cce0;
+    height: 1000px;
+    width: 40rem;
+    margin: auto;
+  }
+  #to-do-form{
+    width: 90%;
+    margin: auto
+  }
+  
+  #to-do-form input{
+    border: 0; 
+    color: black;
+    width: 70%;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 85px;
+    padding: 0 20px;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+  #to-do-form input::placeholder{
+    color: grey;
+  }
+  #to-do-form input:focus{
+    outline: none;
+  }
+  #to-do-form button{
+    height: 50px;
+    width: 80px;
+    margin: 5px 85px;
+    border-radius: 5px;
+    border: 0;
+    background-color:rgba(202, 156, 24, 1); 
+    cursor: pointer;
+  }
+  #to-do-form button:focus{
+    outline: none;
+  }
+  #to-do-form button:hover{
+    background-color:rgb(77, 230, 72);
+  }
+  @media (max-width:768px){
+    .App{
+      width: 90%;
+      margin: auto;
+    }
+    #to-do-form input{
+      height: 40px;
+      margin-top: 20px;
+      margin-left: 5px;
+      font-size: 12px;
+    }
+    #to-do-form button{
+      height: 20px;
+      width: 50px;
+      margin-top: 5px;
+      margin-left: 5px;
+    }
+    }

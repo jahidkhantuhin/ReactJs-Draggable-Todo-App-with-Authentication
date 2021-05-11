@@ -1,0 +1,25 @@
+.auth-form {
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid #0bb2cf;
+    box-shadow: 0 3px 7px #0bb2cf;
+    border-radius: 5px;
+  }
+  .link{
+    display: block;
+    float: right;
+    text-decoration: none;
+  }
+  .link:hover{
+    font-size: 18px;
+    font-weight: bold;
+    color: orangered;
+  }
+  
+  @media (min-width: 768px) {
+    .auth-form {
+      width: 40rem;
+    }
+  }
+  
