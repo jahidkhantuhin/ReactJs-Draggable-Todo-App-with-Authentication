@@ -3,7 +3,7 @@
 # ReactJs-todo-app
 
 
-A Full-stack Todo application built with React + React-sortablejs + NOde(Express) + MongoDB.
+A Full-stack Todo application built with React + React-sortablejs + Node(Express) + MongoDB.
 
 # Fron-end Build Setup
 
