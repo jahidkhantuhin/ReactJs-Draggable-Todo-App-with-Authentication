@@ -5,7 +5,7 @@
 
 A Full-stack Todo application built with React + React-sortablejs + Node(Express) + MongoDB.
 
-# Fron-end Build Setup
+# Front-end Build Setup
 
 ## install dependencies
 npm install
